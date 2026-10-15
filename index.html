@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Research homepage of Yuki Koizumi, doctoral student at The University of Tokyo.">
+<title>Home — Yuki Koizumi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=IBM+Plex+Sans:wght@400;500&amp;family=IBM+Plex+Serif:wght@400;500&amp;display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="home-page">
+<a class="skip-link" href="#main">Skip to content</a>
+<div class="home-field" aria-hidden="true"><canvas id="home-field-canvas"></canvas></div>
+<div class="home-koi" aria-hidden="true"><canvas id="home-koi-canvas"></canvas></div>
+<div class="page">
+  <nav class="site-nav" aria-label="Main navigation"><a href="index.html" aria-current="page">Home</a><a href="publications.html">Publications</a><a href="talks.html">Talks</a><a href="cv.html">Contact / CV</a><a href="press.html">Press Releases</a><a href="material.html">Materials / Blog</a><span class="language-switch" role="group" aria-label="Language"><span aria-current="true">EN</span><span class="separator" aria-hidden="true">/</span><a href="index-jp.html" lang="ja" hreflang="ja">JP</a></span></nav>
+  <div class="home-overline"><p class="edition">QUANTUM INFORMATION &amp; COMPUTATION</p></div>
+  <header class="site-header">
+    <h1><a href="index.html">Yuki Koizumi</a></h1>
+    <p class="affiliation">Doctoral student, Graduate School of Science, The University of Tokyo · <a href="https://sites.google.com/view/nyso/" target="_blank" rel="noopener noreferrer">Yoshioka Lab ↗</a></p>
+    <figure class="home-portrait"><img src="assets/yuki-koizumi-portrait.png" width="523" height="598" alt="Portrait of Yuki Koizumi" decoding="async"></figure>
+  </header>
+  <main id="main">
+    <section class="home-hero" aria-label="Introduction">
+      <div class="home-hero-copy">
+        <p class="intro">About me</p>
+        <p class="lead">I work in quantum computation and quantum information, especially quantum algorithms. My research has focused on efficient measurement algorithms for estimating observables in quantum many-body systems. I like watching schools of koi swim freely, so I let them swim across the background of this website. If they get in your way, you can adjust their number at the bottom of the page.</p>
+      </div>
+    </section>
+    <section class="section" aria-labelledby="home-interests">
+      <div class="section-heading"><h2 id="home-interests">Research interests</h2></div>
+      <ul class="interest-list">
+        <li>What computational advantage can quantum computers offer for practical problems?</li>
+        <li>What are the limits of quantum information processing and of extracting information from quantum systems?</li>
+        <li>What mathematical structures determine the advantage of quantum algorithms?</li>
+      </ul>
+      <p class="lead">These questions guide my research.</p>
+    </section>
+    <section class="section" aria-labelledby="home-links">
+      <div class="section-heading"><h2 id="home-links">Related links</h2></div>
+      <ul class="related-links">
+        <li><a href="https://x.com/Y_Koizumi_q" target="_blank" rel="noopener noreferrer">X ↗</a></li>
+        <li><a href="https://scholar.google.com/citations?user=os1fWC4AAAAJ&amp;hl=ja" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer class="footer"><div class="footer-meta"><span>YUKI KOIZUMI · Homepage</span><div class="koi-count-control" role="group" aria-label="Number of background koi"><span># of Koi</span><button type="button" data-koi-count="0" aria-pressed="false">0</button><button type="button" data-koi-count="3" aria-pressed="true">3</button><button type="button" data-koi-count="5" aria-pressed="false">5</button></div></div><a href="index.html">HOME ↑</a></footer>
+</div>
+<script defer src="sentence-wrap.js"></script>
+<script defer src="koi/network-field.js"></script>
+<script defer src="koi/three.min.js"></script>
+<script defer src="koi/koi-geometry.js"></script>
+<script defer src="koi/koi-home-canvas.js"></script>
+</body>
+</html>
